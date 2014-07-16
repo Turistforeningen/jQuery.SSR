@@ -1,9 +1,21 @@
 jQuery.SSR
 ==========
 
-jQuery plugin to communicate with The Norwegian Mapping Authority's Sentralt
-Stedsnavnsregister (SSR). The authorative register for all location names in
-all of Norway.
+jQuery.SSR is a jQuery plugin for the official location name registry
+([SSR](http://www.statkart.no/Kart/Kartverksted/Stedsnavnsok/)) by the Norwegian
+Mapping Authority –
+[Kartverket](http://kartverket.no/en/About-The-Norwegian-Mapping-Authority/) –
+whom bears nationwide responsibility for geographical information, operates the
+national property registry and undertakes all property registration in Norway.
+
+### What about Node.JS??
+
+A Node.JS version is located [here](https://github.com/Turistforeningen/ssr.js).
+
+### Official Documentation
+
+* [User guide (PDF)](http://www.kartverket.no/Documents/Kart/Stedsnavn/Veledning_indeksert_stedsnavnsok.pdf)
+* [Terms of Service](http://www.statkart.no/Kart/Kartverksted/Lisens/)
 
 ## API
 
