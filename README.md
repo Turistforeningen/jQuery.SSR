@@ -33,7 +33,7 @@ request.error(function(error) {
   console.error(error);
 });
 
-request.alawsy(function() {
+request.always(function() {
   // this is allways triggered
 });
 ```
