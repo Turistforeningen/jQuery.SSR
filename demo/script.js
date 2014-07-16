@@ -27,7 +27,7 @@ var set_map_marker = function(sted) {
     marker.ssr_id = sted.id;
     marker.bindPopup(
       '<strong>' + sted.stedsnavn + '</strong><br>' +
-      '<small>' + sted.navnetype + ' i ' + sted.kommunenavn + ' i ' + sted.fylkesnavn + '</small>'
+      '<small>' + sted.navnetype + ' in ' + sted.kommunenavn + ' in ' + sted.fylkesnavn + '</small>'
     );
     map.setView(latlng, 10, {reset: true});
     marker.openPopup()
@@ -39,7 +39,7 @@ $('#search').select2({
   minimumInputLength: 2,
   formatResult: function(obj) {
     return '<label>' + obj.stedsnavn + '</label><br>'
-         + '<small>' + obj.navnetype + ' i ' + obj.kommunenavn + ' i ' + obj.fylkesnavn + '</small>';
+         + '<small>' + obj.navnetype + ' in ' + obj.kommunenavn + ' in ' + obj.fylkesnavn + '</small>';
   },
   query: function(options) {
     var res = []
