@@ -1,4 +1,4 @@
-jQuery.SSR
+jQuery.SSR ([DEMO](http://turistforeningen.github.io/jQuery.SSR/))
 ==========
 
 jQuery.SSR is a jQuery plugin for the official location name registry
