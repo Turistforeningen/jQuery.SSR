@@ -35,11 +35,8 @@ var set_map_marker = function(sted) {
 }
 
 $('#search').select2({
-  placeholder: 'Search through Sentralt Stedsnavnsregister (SSR)',
+  placeholder: 'Search all the things in Norway',
   minimumInputLength: 2,
-  escapeMarkup: function(m) { return m; },
-  formatSearching: function() { return 'Searching...'; },
-  formatInputTooShort: function() { return 'Minmum two chars'; },
   formatResult: function(obj) {
     return '<label>' + obj.stedsnavn + '</label><br>'
          + '<small>' + obj.navnetype + ' i ' + obj.kommunenavn + ' i ' + obj.fylkesnavn + '</small>';
