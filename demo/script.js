@@ -1,8 +1,6 @@
 var map, marker;
 
 map = L.map('map', {
-  dragging: false,
-  scrollWheelZoom: false,
   center: [65, 12],
   zoom: 5,
   layers: [
@@ -29,7 +27,7 @@ var set_map_marker = function(sted) {
       '<strong>' + sted.stedsnavn + '</strong><br>' +
       '<small>' + sted.navnetype + ' in ' + sted.kommunenavn + ' in ' + sted.fylkesnavn + '</small>'
     );
-    map.setView(latlng, 10, {reset: true});
+    map.setView(latlng, 9, {reset: true});
     marker.openPopup()
   }
 }
