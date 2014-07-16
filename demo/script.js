@@ -51,6 +51,8 @@ $('#search').select2({
       }
       options.callback({ results: res, more: false });
     });
+
+    $('#code').html('$.fn.SSR("' + options.term + '").done(myHandler);');
   }
 }).on('change', function(e) {
   if (e.added) { set_map_marker(e.added); }
